@@ -1,1 +1,0 @@
-Here we mostly learn about Git and GitHub.
