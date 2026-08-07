@@ -1,1 +1,32 @@
-This is the file to store ride history
+===== Ride Details =====
+Driver Name : Santosh
+Vehicle     : Car
+Rating      : 3.0
+Distance    : 12.0 km
+Fare        : Rs. 960.0
+-----------------------------------
+========== Ride Details ==========
+Driver Name : Santosh
+Vehicle     : Car
+Rating      : 3.3
+Distance    : 12.0 km
+Fare        : Rs. 960.0
+----------------------------------------
+Driver Name : Santosh
+Vehicle     : Car
+Rating      : 3.3
+Distance    : 12.0 km
+Fare        : Rs. 960.0
+----------------------------------------
+Driver Name : Subash
+Vehicle     : Car
+Rating      : 2.3
+Distance    : 24.0 km
+Fare        : Rs. 1920.0
+--------------------
+Driver Name : Subash
+Vehicle     : Car
+Rating      : 4.2
+Distance    : 11.0 km
+Fare        : Rs. 880.0
+--------------------
