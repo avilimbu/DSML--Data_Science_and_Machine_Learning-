@@ -18,3 +18,9 @@ Rating      : 3.3
 Distance    : 12.0 km
 Fare        : Rs. 960.0
 ----------------------------------------
+Driver Name : Subash
+Vehicle     : Car
+Rating      : 2.3
+Distance    : 24.0 km
+Fare        : Rs. 1920.0
+--------------------
