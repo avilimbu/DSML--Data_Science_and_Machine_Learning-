@@ -342,6 +342,152 @@ Because:
 ```
 ---
 
+# Solving Linear Equations
+
+NumPy provides:
+
+```python
+np.linalg.solve()
+```
+
+for solving systems of linear equations.
+
+For example:
+
+```text
+2x + y = 5
+x + 3y = 6
+```
+
+This can be represented as:
+
+```text
+AX = B
+```
+
+### Python Example
+
+```python
+A = np.array([
+    [2, 1],
+    [1, 3]
+])
+
+B = np.array([5, 6])
+
+X = np.linalg.solve(A, B)
+
+print(X)
+```
+
+---
+
+#  Dot Product
+
+The dot product combines corresponding elements and sums the results.
+
+```python
+A = np.array([1, 2, 3])
+B = np.array([4, 5, 6])
+
+result = np.dot(A, B)
+
+print(result)
+```
+
+Calculation:
+
+```text
+(1 × 4) + (2 × 5) + (3 × 6)
+= 4 + 10 + 18
+= 32
+```
+
+---
+
+# Matrix Multiplication
+
+Matrix multiplication can be performed using the `@` operator.
+
+```python
+A = np.array([
+    [1, 2],
+    [3, 4]
+])
+
+B = np.array([
+    [5, 6],
+    [7, 8]
+])
+
+result = A @ B
+
+print(result)
+```
+
+### Important Difference
+
+```python
+A * B
+```
+
+means:
+
+**Element-wise multiplication**
+
+while:
+
+```python
+A @ B
+```
+
+means:
+
+**Matrix multiplication**
+
+---
+
+# Vector Norm
+
+The norm can be used to calculate the magnitude/length of a vector.
+
+```python
+A = np.array([3, 4])
+
+result = np.linalg.norm(A)
+
+print(result)
+```
+
+Output:
+
+```text
+5.0
+```
+
+---
+
+# Cross Product
+
+The cross product can be calculated between two 3D vectors.
+
+```python
+A = np.array([1, 0, 0])
+B = np.array([0, 1, 0])
+
+result = np.cross(A, B)
+
+print(result)
+```
+
+Output:
+
+```text
+[0 0 1]
+```
+
+---
+
 # Summary
 
 * How element-wise matrix operations work.
