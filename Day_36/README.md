@@ -1,4 +1,4 @@
-# 📘 Day 36 | Data Integration & Encoding
+# Day 36 | Data Integration & Encoding
 
 # 1. Data Integration
 
